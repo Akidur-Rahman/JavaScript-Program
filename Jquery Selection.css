@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;    
+}
+
+.mydivs {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(31, 99, 224);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    width: 100px;
+}
+
+.mycube {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    opacity: 0.4;
+    position: absolute;
+    text-align: center;
+    padding-top: 36px;
+}
+.Hello {
+    color: red;
+}
+.world {
+    color: blue;
+    font-size: 20px;
+}
