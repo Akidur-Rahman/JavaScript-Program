@@ -11,8 +11,9 @@
     <button id="btn-1">Hide</button>
     <button id="btn-2">Show</button>
     <button id="btn-3">Toggle</button>
-    <button id="btn-4">Slid down</button>
-    <button id="btn-5">Slid up</button>
+    <button id="btn-4">Slide down</button>
+    <button id="btn-5">Slide up</button>
+    <button id="btn-6">Slide Toggle</button>
     <h2 id="heading1" class="myheading">Setting Up Jquery</h2>
 
     <div class="mydivs" id="firstdiv">
@@ -57,6 +58,10 @@
     $("#btn-5").click(function()
     {
         $("#firstdiv").slideUp();
+    });
+    $("#btn-6").click(function()
+    {
+        $("#firstdiv").slideToggle();
     }); 
 });
 </script>
